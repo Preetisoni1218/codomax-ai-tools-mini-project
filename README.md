@@ -1,72 +1,43 @@
 # AI Study Assistant 🤖📚
 
-## Project Overview
+An AI-powered study assistant built with Python and the Google Gemini API.
 
-AI Study Assistant is a beginner-friendly Python project created as part of the Codomax Digital Solutions internship.
+## 🚀 Features
 
-The project helps students use AI tools such as ChatGPT, Gemini, and Microsoft Copilot for studying and learning.
+The application asks the user for a study topic and uses Gemini AI to generate:
 
-## Features
+1. Simple Explanation
+2. 5 Key Points
+3. Short Summary
+4. 3 Practice Questions
 
-* Enter a study topic
-* Get a simple explanation using an AI tool
-* Find important key points
-* Create a short summary
-* Generate practice questions
-* Learn how AI can support productivity and education
+## 🛠️ Technologies Used
 
-## AI Tools Explored
+- Python
+- Google Gemini API
+- Google Gen AI SDK
 
-### ChatGPT
+## 🔑 API Security
 
-Used for:
+The Gemini API key is stored securely as an environment variable and is not included in the source code.
 
-* Coding assistance
-* Debugging
-* Learning concepts
-* Research and brainstorming
+## 🎯 Purpose
 
-### Google Gemini
+This project was created as part of **Module 5 – AI Tools & Mini Project** of my Codomax Digital Solutions internship.
 
-Used for:
+The project demonstrates how an AI API can be integrated with Python to create a simple educational application.
 
-* Research
-* Content generation
-* Learning assistance
-* Coding support
+## 📚 Learning Outcomes
 
-### Microsoft Copilot
+Through this project, I learned:
 
-Used for:
+- How AI APIs work
+- How to connect Python with Gemini
+- How to send prompts to an AI model
+- How to generate AI-based responses
+- How to keep API keys secure
+- How AI tools can support learning and productivity
 
-* Coding suggestions
-* Productivity
-* Content assistance
+## 👩‍💻 Author
 
-## Technologies Used
-
-* Python
-* GitHub
-* AI Tools
-
-## How It Works
-
-1. The user enters a study topic.
-2. The program displays how AI tools can be used for that topic.
-3. The user can use ChatGPT, Gemini, or Copilot to generate study material.
-4. The generated material can be used for learning and revision.
-
-## Learning Outcomes
-
-Through this project, I learned how AI tools can assist with coding, research, learning, brainstorming, and productivity.
-
-I also practiced Python programming and learned how to organize and document a project using GitHub.
-
-## Future Improvements
-
-* Connect the application directly to an AI API
-* Add a graphical user interface
-* Add quiz scoring
-* Add multiple subjects
-* Save generated study notes
-* Add voice input
+Preeti Soni
