@@ -4,26 +4,16 @@ print("================================")
 
 topic = input("Enter a study topic: ")
 
-print("\nGenerating study material...\n")
+print("\nStudy topic:", topic)
 
-print("Topic:", topic)
-print("\n1. Simple Explanation")
-print(f"{topic} is an important topic that can be understood by learning its basic concepts and practical applications.")
+print("\nUse ChatGPT to generate the following:")
+print("1. Simple explanation")
+print("2. Five key points")
+print("3. Short summary")
+print("4. Three practice questions")
 
-print("\n2. Key Points")
-print(f"- Understand the basic concepts of {topic}")
-print(f"- Learn important terms related to {topic}")
-print(f"- Practice examples of {topic}")
-print(f"- Understand its real-world applications")
-print(f"- Revise the important concepts regularly")
-
-print("\n3. Short Summary")
-print(f"{topic} can be learned effectively by understanding its fundamentals, practicing examples, and applying the concepts.")
-
-print("\n4. Practice Questions")
-print(f"1. What is {topic}?")
-print(f"2. Explain the main concepts of {topic}.")
-print(f"3. Give one real-world application of {topic}.")
+print("\nThe user can enter the topic into ChatGPT")
+print("and use AI-generated study material for learning.")
 
 print("\n================================")
 print("       END OF SESSION")
